@@ -7,7 +7,7 @@ def all():
     console = None
     console = c.consoleList("https://romsmania.com/", "/search?orderAsc=1&page=1").getConsole("Super Nintendo")
 
-    console.run(True)
+    console.run()
     console.to_s3()
 
 
